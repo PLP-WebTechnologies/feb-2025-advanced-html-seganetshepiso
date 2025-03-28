@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="My Website">
+    <meta name="author" content="Beauty Segane">
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <section>
+        <h2>Steps to Success</h2>
+        <ol type="I">
+            <li>Plan your strategy</li>
+            <li>Execute with precision</li>
+            <li>Review the results</li>
+            <li>Adjust as needed</li>
+            <li>Repeat the process</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Beautiful Nature</h2>
+        <img src="pexels-photo.jpg" alt="Beautiful Nature" width="700" height="500">
+    </section>
+    <section>
+        <caption>Contact List</caption>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Smith</td>
+                    <td>123 Main St, Anytown</td>
+                    <td>555-0101</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Johnson</td>
+                    <td>456 Oak Ave, Somewhere</td>
+                    <td>555-0202</td>
+                    <td>sarah@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>789 Pine Rd, Nowhere</td>
+                    <td>555-0303</td>
+                    <td>michael@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>321 Elm Blvd, Anywhere</td>
+                    <td>+27676488987</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Wilson</td>
+                    <td>654 Maple Ln, Elsewhere</td>
+                    <td>555-0505</td>
+                    <td>david@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Registration Form</h2>
+        <form id="registrationForm" action="/submit" method="post">
+            <section class="form-group">
+                <label for="fullName">Full Name*</label>
+                <input type="text" id="fullName" name="fullName" 
+                       placeholder="Enter your full name" 
+                       >
+            </section>
+            <section class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" 
+                       placeholder="Enter your email address" 
+                       required>
+            </section>
+
+            <section class="form-group">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" 
+                       placeholder="Create a password (min 8 characters)" 
+                       required minlength="8">
+            </section>
+
+            <section class="form-group">
+                <label for="birthdate">Date of Birth*</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </section>
+            <section class="form-group">
+                <label for="country">Country*</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="CA">Canada</option>
+                    <option value="AU">Australia</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+            <section class="form-group">
+                <label>Gender*</label>
+                <selection>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male" style="display: inline;">Male</label>
+                </selection>
+                <selection>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" style="display: inline;">Female</label>
+                </selection>
+                <selection>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other" style="display: inline;">Other</label>
+                </selection>
+            </selection>
+            <selection class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms" style="display: inline;">
+                    I agree to the terms and conditions*
+                </label>
+            </selection>
+            <selection class="form-group">
+                <button type="submit">Register</button>
+            </selection>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
